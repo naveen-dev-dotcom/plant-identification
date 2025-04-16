@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide the scrollbar but allow scrolling */
+::-webkit-scrollbar {
+  display: none;  /* Hide scrollbar for webkit-based browsers */
+}
+
+.scrollable-element {
+  overflow-y: scroll; /* Allow vertical scrolling */
+  -ms-overflow-style: none;  /* For IE and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
