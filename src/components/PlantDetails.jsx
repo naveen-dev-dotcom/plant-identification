@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CheckIcon, RefreshIcon } from '@heroicons/react/24/solid';
+import { CheckIcon, ArrowPathIcon } from '@heroicons/react/24/solid';
 
 
 const PlantDetails = ({ base64Image }) => {
@@ -145,7 +145,7 @@ const PlantDetails = ({ base64Image }) => {
 >
   {healthLoading ? (
     <>
-      <RefreshIcon className="h-5 w-5 animate-spin text-white" />
+      <ArrowPathIcon className="h-5 w-5 animate-spin text-white" />
       <span>Checking Health...</span>
     </>
   ) : (
