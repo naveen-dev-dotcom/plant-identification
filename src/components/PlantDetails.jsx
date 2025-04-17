@@ -141,7 +141,7 @@ const PlantDetails = ({ base64Image }) => {
         <button
   onClick={checkHealth}
   disabled={healthLoading}
-  className="bg-green-600 hover:bg-green-700 text-white font-medium px-8 py-3 rounded-lg mt-6 transition duration-300 transform hover:scale-105 disabled:bg-gray-500 flex items-center justify-center space-x-2"
+  className="bg-green-600 hover:bg-green-700 text-white font-medium px-8 py-3 rounded-lg mt-6 transition duration-300 transform hover:scale-105 disabled:bg-gray-500 flex items-center justify-center space-x-2 mx-auto"
 >
   {healthLoading ? (
     <>
