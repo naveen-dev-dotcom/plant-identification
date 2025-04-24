@@ -21,6 +21,11 @@ const plantData = [
   { name:"Cardamom", src:"https://sketchfab.com/models/7e84837fa85c4b56b751f51dccb5aee0/embed" },
   { name:"Camphor", src:"https://sketchfab.com/models/27a7a54347284fbebaf194808dddde34/embed" },
   { name:"California Poppy", src:"https://sketchfab.com/models/957a776310804d81a3ed9de7583558e0/embed" },
+  { name:"Amla", src:"https://sketchfab.com/models/60ab2bc091674382a086391613e65d6f/embed" },
+  { name:"Garlic", src:"https://sketchfab.com/models/d43543e13be44ae09ea0d0f66df28e24/embed" },
+  { name:"Black pepper", src:"https://sketchfab.com/models/0b31659ed4e842feb2409cc716c3672a/embed" },
+  { name:"Santalum album", src:"https://sketchfab.com/models/428d15144a6d4d01a33b44aad7f9ecfa/embed" },
+  { name:"white frangipani", src:"https://sketchfab.com/models/b77cc4bd03c548e8b87b595a06c8ca23/embed" },
 ];
 
 const ThreeDView = () => {
@@ -34,7 +39,8 @@ const ThreeDView = () => {
     <div className="p-4">
    <div className="mb-6">
   {/* Title */}
-  <h2 className="font-bold text-xl mb-4">🌱 Visual Garden</h2>
+  <h2 className="font-bold text-3xl mb-4 text-green-500">🌱 Visual Garden</h2>
+
 
   {/* Search Bar */}
   <form
