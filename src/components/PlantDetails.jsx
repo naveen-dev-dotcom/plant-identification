@@ -15,7 +15,12 @@ const PlantDetails = ({ base64Image }) => {
       const response = await fetch("https://plant.id/api/v3/identification", {
         method: "POST",
         headers: {
-          // "Api-Key": "Gav87Vg8AlYSNur4P7DDWhh6F67oe94wxr69yc1fEadPjQOcuc",
+          "Api-Key": "Gav87Vg8AlYSNur4P7DDWhh6F67oe94wxr69yc1fEadPjQOcuc",
+          // "Api-Key": "FUCDfjdqxe12Rf5s2vFjiVwDwyvOpMJCmcQteivuUhdcRQTOGX",
+          // "Api-Key": "MK77aCoD76Tc8asN90SD2wA4S1C83f1qjP7GNxnSYRjNi3AD3Y",
+          // "Api-Key": "xyliiwgJhSRJhXpC4VoWncl317M1cA1eZZXKZO6MUHRhsBRNkK",
+          // "Api-Key": "gJTdPR9BGqDQAtl8X9FiNw6tAqSIs0Q8o51jDoIW5lCE1HkDPR",
+          // "Api-Key": "A4ZHaV8eKRvCRMhTJ6dWtxNEjY766jRCJZq1szJXS7hFPkXdk9",
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
@@ -58,7 +63,12 @@ const PlantDetails = ({ base64Image }) => {
       const response = await fetch("https://plant.id/api/v3/health_assessment", {
         method: "POST",
         headers: {
-          // "Api-Key": "Gav87Vg8AlYSNur4P7DDWhh6F67oe94wxr69yc1fEadPjQOcuc",
+          "Api-Key": "Gav87Vg8AlYSNur4P7DDWhh6F67oe94wxr69yc1fEadPjQOcuc",
+          // "Api-Key": "FUCDfjdqxe12Rf5s2vFjiVwDwyvOpMJCmcQteivuUhdcRQTOGX",
+          // "Api-Key": "MK77aCoD76Tc8asN90SD2wA4S1C83f1qjP7GNxnSYRjNi3AD3Y",
+          // "Api-Key": "xyliiwgJhSRJhXpC4VoWncl317M1cA1eZZXKZO6MUHRhsBRNkK",
+          // "Api-Key": "gJTdPR9BGqDQAtl8X9FiNw6tAqSIs0Q8o51jDoIW5lCE1HkDPR",
+          // "Api-Key": "A4ZHaV8eKRvCRMhTJ6dWtxNEjY766jRCJZq1szJXS7hFPkXdk9",
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
